@@ -21,7 +21,7 @@ global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md"
 global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/IAto4swnSi78hTHy9Rin61";
 global.website=process.env.GURL || "https://chat.whatsapp.com/IAto4swnSi78hTHy9Rin61" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/ee20e4320f9b39c2b7d7a.jpg?raw=true" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "¹⁴³ ᴬˡᵉᵐᵃᵖ 🧸💜 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 ©" 
+global.caption = process.env.CAPTION || global.caption || "𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 ©" 
 
 
 global.devs = "22898133388" // Developer Contact
@@ -72,7 +72,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.8",
-  caption : global.caption || "" , // ```『 ¹⁴³ ᴬˡᵉᵐᵃᵖ 🧸💜 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛-ᴍᴅ 』```", //*『𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 • 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 ©』*\n youtube.com/@suhailtechinfo0"),
+  caption : global.caption || "" , // ```『 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛-ᴍᴅ 』```", //*『𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 • 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 ©』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛",
   packname: process.env.PACK_NAME || "¹⁴³ ᴬˡᵉᵐᵃᵖ 🧸💜",
@@ -84,7 +84,7 @@ module.exports = {
   KOYEB_API : process.env.KOYEB_API  || "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "bmkCFm1VJHibcHbxhDbrVRXA",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "sk-None-am25I3Dok4Ngg1Cr7MxBT3BlbkFJfUQHvyksouYxWpxSeIjZ",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "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",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
@@ -135,7 +135,7 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
   //warncount: process.env.WARN_COUNT || 3,
   //userImages:process.env.USER_IMAGES|| "text",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
   //disablepm: process.env.DISABLE_PM || "false",
-  //MsgsInLog: process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
+  //MsgsInLog: process.env.MSGS_IN_LOG|| "true", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
   //readcmds:process.env.READ_COMMANDS|| "false", 
   //alwaysonline:process.env.WAPRESENCE|| "unavailable", // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
   //read_status: process.env.AUTO_READ_STATUS || "false",
